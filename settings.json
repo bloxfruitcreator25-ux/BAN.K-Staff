@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "ban.k_staff",
   "bot-account": {
-    "username": "PerzaanLive",
+    "username": "ban.k_staff",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 92591,
+    "ip": "BANK_SMP.aternos.me",
+    "port": 17802,
     "version": "1.21.1"
   },
   "position": {
@@ -31,7 +31,7 @@
       "repeat-delay": 500,
       "messages": [
         "I'm a regular player",
-        "Subscribe to Perzaan Gaming!",
+        "Subscribe to @ban_panel!",
         "I like to play Minecraft!"
       ]
     },
@@ -82,7 +82,7 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
